@@ -1,33 +1,6 @@
 @import "bootstrap/dist/css/bootstrap-reboot.css";
 @import "./base/fonts";
 
-body {
-  font-family: "San Francisco(SF UI)", sans-serif;
-  font-size: 16px;
-  color: #fff;
-}
-
-section {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-img {
-  object-fit: cover;
-}
-
-.container {
-  padding: 0 50px;
-  z-index: 0;
-}
-
-@media (max-width: 400px) {
-  .container {
-    padding: 0 20px;
-  }
-}
-
 @import "./base/reuse-parts";
 @import "./base/buttons";
 @import "./base/one-page-scroll";
