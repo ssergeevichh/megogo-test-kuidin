@@ -1,0 +1,18 @@
+{
+  "name": "megogo-test-kuidin",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sass": "^1.54.2",
+    "vite": "^3.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
+}

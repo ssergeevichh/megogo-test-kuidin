@@ -1,0 +1,16 @@
+.header {
+  position: absolute;
+  padding: 15px;
+  z-index: 1;
+}
+
+.hamburger {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  transition: all 0.3s ease-in-out;
+
+  &:active {
+    transform: scale(1.1);
+  }
+}

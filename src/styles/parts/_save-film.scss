@@ -1,0 +1,13 @@
+.save-film {
+  padding-top: 80px;
+  &__title {
+    margin-bottom: 15px;
+  }
+  &__desc {
+    margin-bottom: 30px;
+  }
+
+  &__img {
+    width: 100%;
+  }
+}

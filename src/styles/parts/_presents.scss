@@ -1,0 +1,18 @@
+.presents {
+  padding-top: 90px;
+  &::after {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 55%, rgb(0, 0, 0) 95%);
+  }
+
+  &__title {
+    margin-bottom: 15px;
+  }
+
+  &__desc {
+    margin-bottom: 20px;
+  }
+
+  &__img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,18 @@
+.btn {
+  background: #23c3b2;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #fff;
+  font-weight: 600;
+  padding: 20px 57px;
+  transition: all 0.3s ease-in-out;
+
+  &:active {
+    background-color: #fff;
+    color: #23c3b2;
+  }
+}
