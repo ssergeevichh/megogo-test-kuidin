@@ -160,7 +160,6 @@ export default function onepagescroll(selector, options) {
 
   //bind touch
   document.addEventListener("touchstart", function (e) {
-    e.preventDefault();
     if (
       e.type == "touchstart" ||
       e.type == "touchmove" ||
@@ -174,8 +173,6 @@ export default function onepagescroll(selector, options) {
   });
 
   document.addEventListener("touchend", function (e) {
-    e.preventDefault();
-
     if (
       e.type == "touchstart" ||
       e.type == "touchmove" ||
